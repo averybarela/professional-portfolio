@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+    padding: 0 ;
+    margin: 0 ;
+}
+body {
+    background-color: #ffeeee ;
+}
+
+.header {
+    padding: 10px;
+    font-family: 'Playfair Display SC' ;
+    font-style: normal ;
+    background-color: #ffeeee ;
+    color: #ff0000 ;
+}
+.header h1 {
+    display: inline-block;
+    font-size: 32px;
+    font-style: italic;
+}
+.header h1 .averybarela {
+    font-size: 57px ;
+    font-style: normal;
+}
+.header div {
+    padding-top: 25px;
+    margin-right: 40px;
+    float: right;
+    font-family: 'Playfair Display SC, Playfair Display SC, Playfair Display SC';
+    font-size: 25px
+}
+
+.header div ul {
+    list-style-type: none;
+}
+
+.header div ul li {
+    display: inline-block;
+    margin-left: 50px;
+}
+ h2{
+    font-size: 25px;
+    color: #ff0000;
+    text-align: justify;
+
+}
+ p {
+    font-size: 18px;
+    color: #ff0000;
+}
+
+.contact-me img {
+    position: sticky ;
+    width: 250px ;
+    height: 350px ;
+    left: 150px;
+    top: 150px ;
+}
+
+.work p{
+    display: inline-block;
+    margin-left: 10px;
+    
+       
+}
+
+
+a {
+    color: #ff0000 ;
+    text-decoration: none;
+}
+
+p{
+    font-size: 18px;
+    text-align: center;
+}
+
+.hero {
+    height: 100px;
+    width: 50% ;
+    margin-bottom: 30px;
+    background-size: cover;
+    background-position: center;
+}
+
+.contact-me p{
+   
+    margin-right: 447px;
+    text-decoration: underline;
+       
+}
+.footer {
+    padding: 40px;
+    clear: both;
+    font-family: 'Playfair Display SC';
+    text-align: center;
+}
+ h3 {
+    font-size: 25px;
+    color: #ff0000;
+    text-align: center;
+    vertical-align: bottom;
+}
