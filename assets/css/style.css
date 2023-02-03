@@ -5,14 +5,14 @@
 }
 body {
     background-color: #ffeeee ;
+    font-family: 'Playfair Display SC' ;
+    color: #ff0000 ;
 }
 
 .header {
     padding: 10px;
-    font-family: 'Playfair Display SC' ;
     font-style: normal ;
-    background-color: #ffeeee ;
-    color: #ff0000 ;
+    
 }
 .header h1 {
     display: inline-block;
@@ -38,9 +38,23 @@ body {
 .header div ul li {
     display: inline-block;
     margin-left: 50px;
+    color: #ff0000;
 }
+.about-me img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+    border-radius: 30%;
+}
+.about me p {
+    display:inline-block ;
+    margin-left: 50%;
+    color: #ff0000;
+}
+
  h2{
-    font-size: 25px;
+    font-size: 30px;
     color: #ff0000;
     text-align: justify;
 
@@ -48,53 +62,73 @@ body {
  p {
     font-size: 18px;
     color: #ff0000;
-}
 
-.contact-me img {
-    position: sticky ;
-    width: 250px ;
-    height: 350px ;
-    left: 150px;
-    top: 150px ;
+}
+.work img{
+    border-radius: 50%;
+}
+.column{
+    float: left;
+    width: 33.33%;
+    padding: 10px:
+}
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.first-project img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30%;
+}
+.first-project p{
+    text-align: justify;
+    margin-left: 35%;
+    width: 50%;
+    color: #ff0000;
+    text-decoration: underline;
 }
 
 .work p{
     display: inline-block;
-    margin-left: 10px;
-    
-       
+    text-align: center;
+    width: 32.5%;
+    color: #ff0000;
+    text-decoration: underline;
 }
 
 
 a {
-    color: #ff0000 ;
     text-decoration: none;
+    color: #ff0000;
 }
 
 p{
     font-size: 18px;
     text-align: center;
+    color: #ff0000;
 }
 
 .hero {
-    height: 100px;
+    height: 50px;
     width: 50% ;
     margin-bottom: 30px;
-    background-size: cover;
-    background-position: center;
-}
+   }
 
 .contact-me p{
-   
-    margin-right: 447px;
-    text-decoration: underline;
-       
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration:none:
+    
 }
 .footer {
     padding: 40px;
     clear: both;
-    font-family: 'Playfair Display SC';
     text-align: center;
+    color: #ff0000;
 }
  h3 {
     font-size: 25px;
